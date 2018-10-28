@@ -733,7 +733,7 @@ plt.show()
 ```
 
 
-![png](output_19_0.png)
+<img src="output_19_0.png">
 
 
 Viola - it worked!  We can see that by the 26th episode (around 10 minutes of running on my MacBook Pro) the score is over 30 and the network remains stable thereafter.
