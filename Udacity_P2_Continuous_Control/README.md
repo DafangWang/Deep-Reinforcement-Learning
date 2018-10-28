@@ -46,7 +46,7 @@ The generic Reacher environment's attributes are described at the Unity Github p
   - __Reset Parameters__: Two, corresponding to goal size, and goal movement speed.
   - __Benchmark Mean Reward__: 30
 
-![reacher.gif](attachment:reacher.gif)
+<img src="reacher.gif">
 
 For this project, we had the option to work either with: 
 
@@ -84,7 +84,7 @@ DDPG uses 2 deep neural networks (akin to an actor-critic network) to demonstrat
 
 The pseudocode for the DDPG algorithm from the Google Deep Mind paper is referenced below:
 
-![DDPG%20Algorithm.png](attachment:DDPG%20Algorithm.png)
+<img src="DDPG%20Algorithm.png">
 
 In the DDPG paper, the authors demonstrated that this single algorithm is "___model free___" by successfully training it to solve 20 different simulated physics tasks.
 
@@ -97,7 +97,7 @@ D4PG provides several useful improvements to application of deterministic policy
 
 The pseudocode for the D4PG algorithm from the Google Deep Mind paper is referenced below:
 
-![D4PG%20Algorithm.png](attachment:D4PG%20Algorithm.png)
+<img src="D4PG%20Algorithm.png">
 
 
 
