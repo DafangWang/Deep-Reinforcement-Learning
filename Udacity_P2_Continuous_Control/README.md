@@ -233,7 +233,7 @@ The actor is a simple feed forward neural network with two hidden layers.  The i
 
 See below a quick sketch of the actor and critic network structures:
 
-![DDPG_Network_Diagram.png](attachment:DDPG_Network_Diagram.png)
+<img src="DDPG_Network_Diagram.png">
 
 The actor network takes the vector of the observation state as an input and outputs a vector of actions.  The critic network takes the vector of the observation state as input and, after the first ReLU activation layer, takes the vector of actions from the actor network as an input.  The output for the critic network is a single Q value.
 
