@@ -23,7 +23,7 @@ The following is a basic example of an actual double-jointed robot arm that was 
 
 
 
-![robot_arm_sample.gif](attachment:robot_arm_sample.gif)
+<img src="robot_arm_sample.gif">
 
 
 ### A. Reacher Environment
@@ -46,7 +46,7 @@ The generic Reacher environment's attributes are described at the Unity Github p
   - __Reset Parameters__: Two, corresponding to goal size, and goal movement speed.
   - __Benchmark Mean Reward__: 30
 
-![reacher.gif](attachment:reacher.gif)
+<img src="reacher.gif">
 
 For this project, we had the option to work either with: 
 
@@ -84,7 +84,7 @@ DDPG uses 2 deep neural networks (akin to an actor-critic network) to demonstrat
 
 The pseudocode for the DDPG algorithm from the Google Deep Mind paper is referenced below:
 
-![DDPG%20Algorithm.png](attachment:DDPG%20Algorithm.png)
+<img src="DDPG%20Algorithm.png">
 
 In the DDPG paper, the authors demonstrated that this single algorithm is "___model free___" by successfully training it to solve 20 different simulated physics tasks.
 
@@ -97,7 +97,7 @@ D4PG provides several useful improvements to application of deterministic policy
 
 The pseudocode for the D4PG algorithm from the Google Deep Mind paper is referenced below:
 
-![D4PG%20Algorithm.png](attachment:D4PG%20Algorithm.png)
+<img src="D4PG%20Algorithm.png">
 
 
 
@@ -233,7 +233,7 @@ The actor is a simple feed forward neural network with two hidden layers.  The i
 
 See below a quick sketch of the actor and critic network structures:
 
-![DDPG_Network_Diagram.png](attachment:DDPG_Network_Diagram.png)
+<img src="DDPG_Network_Diagram.png">
 
 The actor network takes the vector of the observation state as an input and outputs a vector of actions.  The critic network takes the vector of the observation state as input and, after the first ReLU activation layer, takes the vector of actions from the actor network as an input.  The output for the critic network is a single Q value.
 
@@ -733,7 +733,7 @@ plt.show()
 ```
 
 
-![png](output_19_0.png)
+<img src="output_19_0.png">
 
 
 Viola - it worked!  We can see that by the 26th episode (around 10 minutes of running on my MacBook Pro) the score is over 30 and the network remains stable thereafter.
