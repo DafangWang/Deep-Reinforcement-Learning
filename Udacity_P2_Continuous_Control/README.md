@@ -23,7 +23,7 @@ The following is a basic example of an actual double-jointed robot arm that was 
 
 
 
-![robot_arm_sample.gif](attachment:robot_arm_sample.gif)
+<img src="robot_arm_sample.gif">
 
 
 ### A. Reacher Environment
