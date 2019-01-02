@@ -18,7 +18,7 @@ As this is the last assignment for this course, I decided to take some extra tim
 - Added Residual Neural Network Layers to experiment with this exciting technique;
 - Attempted to Implement Prioritized Experience Replay
 
-![unity_tennis.png](attachment:unity_tennis.png)
+<img src=unity_tennis.png>
 
 
 ## 1. Background
@@ -76,7 +76,7 @@ D4PG provides several useful improvements to application of deterministic policy
 
 The pseudocode for the D4PG algorithm from the Google Deep Mind paper is referenced below:
 
-![D4PG%20Algorithm.png](attachment:D4PG%20Algorithm.png)
+<img src=D4PG%20Algorithm.png>
 
 
 #### 3. MADDPG
