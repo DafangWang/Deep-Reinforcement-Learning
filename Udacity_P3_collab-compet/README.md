@@ -217,7 +217,7 @@ The basic actor is a straightforward feed forward neural network with two hidden
 
 See below a quick sketch of the actor and critic network structures:
 
-![DDPG_Network_Diagram.png](attachment:DDPG_Network_Diagram.png)
+<img src=DDPG_Network_Diagram.png>
 
 As described above in the Google Deep Mind paper, the actor network takes the vector of the observation state as an input and outputs a vector of actions.  The critic network takes the vector of the observation state as input and, after the first ReLU activation layer, takes the vector of actions from the actor network as an input.  The output for the critic network is a single Q value.
 
@@ -231,7 +231,7 @@ The idea was that deeper networks would be more effective at finding more levels
 
 Residual Neural Networks utilize an innovative strategy known as ***skip connections*** to solve the vanishing gradient problem.  As illustrated below in a figure from the above-referenced Microsoft Research paper, Residual Networks effectively skip over a layer by simply adding the results from the previous layer to the final output.
 
-![residual_layer.png](attachment:residual_layer.png)
+<img src=residual_layer.png>
 
 The point of the above structure is that the neural network is able to utilize the identity mapping and therefore not lose information despite added layers--but still get the possible benefits of added abstraction that additional layers provide.
 
