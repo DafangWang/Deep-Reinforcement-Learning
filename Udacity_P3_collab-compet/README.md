@@ -63,7 +63,7 @@ DDPG uses 2 deep neural networks (akin to an actor-critic network) to demonstrat
 
 The pseudocode for the DDPG algorithm from the Google Deep Mind paper is referenced below:
 
-![DDPG%20Algorithm.png](attachment:DDPG%20Algorithm.png)
+<img src=DDPG%20Algorithm.png>
 
 In the DDPG paper, the authors demonstrated that this single algorithm is "___model free___" by successfully training it to solve 20 different simulated physics tasks.
 
